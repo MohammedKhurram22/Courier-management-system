@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C92F1CEF-0BF0-4A2D-A8D3-9D4A7A9640DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApp1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApp1</RootNamespace>
+    <AssemblyName>Courier Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\User\Desktop\Courier Management System\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Courier Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Courier Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A2E0E67F1CB5B51EA329132FAC19ABDE4BF3C76C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CourierManagementSystem_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.3.0, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CourierDetails.Designer.vb">
+      <DependentUpon>CourierDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CourierDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourierManagement.Designer.vb">
+      <DependentUpon>CourierManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CourierManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Courier_systemDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet1.vb">
+      <DependentUpon>Courier_systemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Courier_systemDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Courier_systemDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Distributions.Designer.vb">
+      <DependentUpon>Distributions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Distributions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load.Designer.vb">
+      <DependentUpon>Load.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Load.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.vb">
+      <DependentUpon>Reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeDetails.Designer.vb">
+      <DependentUpon>EmployeeDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CourierDetails.resx">
+      <DependentUpon>CourierDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourierManagement.resx">
+      <DependentUpon>CourierManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distributions.resx">
+      <DependentUpon>Distributions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load.resx">
+      <DependentUpon>Load.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeDetails.resx">
+      <DependentUpon>EmployeeDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CourierManagementSystem_TemporaryKey.pfx" />
+    <None Include="Courier_systemDataSet.xsc">
+      <DependentUpon>Courier_systemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet.xss">
+      <DependentUpon>Courier_systemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet1.xsc">
+      <DependentUpon>Courier_systemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet1.xss">
+      <DependentUpon>Courier_systemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet10.xsc">
+      <DependentUpon>Courier_systemDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet10.xss">
+      <DependentUpon>Courier_systemDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet11.xsc">
+      <DependentUpon>Courier_systemDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet11.xss">
+      <DependentUpon>Courier_systemDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet12.xsc">
+      <DependentUpon>Courier_systemDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet12.xss">
+      <DependentUpon>Courier_systemDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet2.xsc">
+      <DependentUpon>Courier_systemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet2.xss">
+      <DependentUpon>Courier_systemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet3.xsc">
+      <DependentUpon>Courier_systemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet3.xss">
+      <DependentUpon>Courier_systemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet4.xsc">
+      <DependentUpon>Courier_systemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet4.xss">
+      <DependentUpon>Courier_systemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet5.xsc">
+      <DependentUpon>Courier_systemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet5.xss">
+      <DependentUpon>Courier_systemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet6.xsc">
+      <DependentUpon>Courier_systemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet6.xss">
+      <DependentUpon>Courier_systemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet7.xsc">
+      <DependentUpon>Courier_systemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet7.xss">
+      <DependentUpon>Courier_systemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet8.xsc">
+      <DependentUpon>Courier_systemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet8.xss">
+      <DependentUpon>Courier_systemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet9.xsc">
+      <DependentUpon>Courier_systemDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Courier_systemDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Courier_systemDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Courier_systemDataSet9.xss">
+      <DependentUpon>Courier_systemDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\distribution.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2022-01-06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loads.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\courier.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xxx2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homepage.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

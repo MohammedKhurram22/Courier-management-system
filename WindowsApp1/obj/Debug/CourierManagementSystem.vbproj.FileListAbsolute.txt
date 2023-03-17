@@ -1,0 +1,77 @@
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.EmployeeDetails.resources
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Login.resources
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.GenerateResource.cache
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Distributions.resources
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Reports.resources
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.CourierManagement.resources
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Load.resources
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbprojAssemblyReference.cache
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.CourierDetails.resources
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.exe.config
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.exe
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.pdb
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.xml
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.exe
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.xml
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.pdb
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.CopyComplete
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.exe.manifest
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.application
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.exe.manifest
+C:\Users\User\source\repos\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.application
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.AssemblyReference.cache
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.SuggestedBindingRedirects.cache
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.CourierDetails.resources
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.CourierManagement.resources
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Distributions.resources
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Load.resources
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Reports.resources
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.EmployeeDetails.resources
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Login.resources
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.GenerateResource.cache
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.CoreCompileInputs.cache
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.exe
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.xml
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.pdb
+D:\5th sem projects\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.exe.config
+D:\5th sem projects\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.exe.manifest
+D:\5th sem projects\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.application
+D:\5th sem projects\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.exe
+D:\5th sem projects\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.pdb
+D:\5th sem projects\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.xml
+D:\5th sem projects\WindowsApp1\WindowsApp1\bin\Debug\Guna.UI2.dll
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.exe.manifest
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.application
+D:\5th sem projects\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.CopyComplete
+E:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.exe
+E:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.xml
+E:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.pdb
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.exe.config
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.exe.manifest
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.application
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.exe
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.pdb
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\bin\Debug\Courier Management System.xml
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\bin\Debug\Guna.UI2.dll
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.AssemblyReference.cache
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.CourierDetails.resources
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.CourierManagement.resources
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Distributions.resources
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Load.resources
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Reports.resources
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.EmployeeDetails.resources
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Login.resources
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.GenerateResource.cache
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.CoreCompileInputs.cache
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.exe.manifest
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.application
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.CopyComplete
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.exe
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.xml
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\Courier Management System.pdb
+C:\5th sem project\Courier Management System\WindowsApp1\WindowsApp1\obj\Debug\CourierManagementSystem.vbproj.SuggestedBindingRedirects.cache
